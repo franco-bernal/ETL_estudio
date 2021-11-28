@@ -1,0 +1,20 @@
+En la sql server se creará un servidor analysis services
+
+gracias a la implementación del olap aparecerá una base de datos
+que se usará en power bi
+
+----
+en power bi
+
+-abrir las opciones de "obtener datos"
+-en la lista aparecerá analysis services | seleccionar
+-en servidor pones el nombre del servidor sqlserver analysis services
+-y el nombre de la base de datos que creó el olap
+
+*opcion conectarse en directo está bien | aceptar
+
+//aparecerá un navegador con el servidor y el dw samar importadora.
+ 
+-selecciona DW Samar Importadora | aceptar
+
+Ya se debería poder jugar con power BI

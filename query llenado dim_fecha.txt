@@ -1,0 +1,9 @@
+SELECT distinct FECHA,
+ cast((year(FECHA)*10000+Month(FECHA)*100+day(FECHA)) as int)
+ as id_fecha,
+ datepart(week,fecha) as semana,
+ datename(weekday, fecha) as dia,
+ datename(month,fecha) as mes,
+ year(fecha) as anio, 
+case when datepart(month, fecha) between 1 and 6 then 1 else 2 end as semestre 
+FROM VENTAS

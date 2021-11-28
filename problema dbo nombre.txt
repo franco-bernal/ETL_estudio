@@ -1,0 +1,6 @@
+cambiar el nombre de la bd
+
+USE NombreDelabd
+GO
+EXEC dbo.sp_changedbowner @loginame = N'sa', @map = false
+GO

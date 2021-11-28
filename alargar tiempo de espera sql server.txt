@@ -1,0 +1,7 @@
+En caso de que la solución no sea restablecer la bd en sqlserver 2019
+
+
+-ir a pestaña tools/options
+-designers
+-transaction time-out after
+-alargar a 120 seconds opcional

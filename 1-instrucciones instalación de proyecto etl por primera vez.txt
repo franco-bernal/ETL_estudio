@@ -1,0 +1,18 @@
+después de la instalación de
+
+-sqlserver 2019 y management
+-visual studio 2019 y integration services y analysis services
+
+Abrir el proyecto etl full, cambiar las conexiones y en sql server
+
+
+•Crear Diagramas
+-generar los diagramas seleccionando todas las tablas del DW
+-lo mismo con la bd 
+
+•En el visualstudio en administradores de conexiones del explorador de soluciones
+  -crear dos conexiones ado.net. una para el DW  y otra para la bd, las 2 con el usuario sa
+
+
+
+

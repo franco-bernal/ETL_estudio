@@ -1,0 +1,20 @@
+En sql server entrar a
+
+ -security/logins del servidor o bd
+ -abrir las propiedades de sa
+ -claves sa y sa
+ -entrar a la pestaña status y en login poner enabled.
+ -ok
+
+para crear usuario nuevo, hay que hacerle lo mismo, pero agregarle un nombre
+y un rol de admin
+
+RESTART SERVICIO/SERVIDOR
+
+--------
+ -para poder conectarse 
+   -propiedades del servidor
+   -seguridad
+   -seleccionar sql server and windows authentication mode
+
+RESTART SERVICIO/SERVIDOR

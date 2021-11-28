@@ -1,0 +1,125 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="580e907a-40b7-41eb-938a-ddfa5f3c61b4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW Samar Importadora</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DIM CLIENTE</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c8f9f0e0-e0da-48b1-8a2e-e247ca7787df">
+          <ID>DIM CLIENTE</ID>
+          <Name>DIM CLIENTE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bb2de420-bf39-43fa-a1d1-ec90615ddde8">
+            <DataSourceViewID>DW Samar Importadora</DataSourceViewID>
+            <TableID>dbo_DIM_CLIENTE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM FECHA</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="278d032f-d66c-4bda-9004-8df3b8c07caa">
+          <ID>DIM FECHA</ID>
+          <Name>DIM FECHA</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8049824a-b5cc-44ea-af88-8012495da242">
+            <DataSourceViewID>DW Samar Importadora</DataSourceViewID>
+            <TableID>dbo_DIM_FECHA</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM PRODUCTO</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="041d0235-1716-48bb-a0bc-7dada8704b7f">
+          <ID>DIM PRODUCTO</ID>
+          <Name>DIM PRODUCTO</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="023b010c-4522-43a4-b2f9-d8277af61907">
+            <DataSourceViewID>DW Samar Importadora</DataSourceViewID>
+            <TableID>dbo_DIM_PRODUCTO</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM SUCURSAL</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="994784a2-7333-4f2a-ae1d-8df7cf5bd952">
+          <ID>DIM SUCURSAL</ID>
+          <Name>DIM SUCURSAL</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1d6e0ff3-b917-4eca-8cfa-17679a2bd3f8">
+            <DataSourceViewID>DW Samar Importadora</DataSourceViewID>
+            <TableID>dbo_DIM_SUCURSAL</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM VENDEDOR</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ddefdedf-8ed9-4c08-b128-29f37249efc1">
+          <ID>DIM VENDEDOR</ID>
+          <Name>DIM VENDEDOR</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ae4c289a-4022-4078-afe9-1771ddaaaaa6">
+            <DataSourceViewID>DW Samar Importadora</DataSourceViewID>
+            <TableID>dbo_DIM_VENDEDOR</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FACT VENTAS CATEGORIA</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="03121552-f457-417d-bdb9-02c616bc074e">
+          <ID>FACT VENTAS CATEGORIA</ID>
+          <Name>FACT VENTAS CATEGORIA</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9cae94df-7724-4976-9000-1058de968ab7">
+            <DataSourceViewID>DW Samar Importadora</DataSourceViewID>
+            <TableID>dbo_FACT_VENTAS_CATEGORIA</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

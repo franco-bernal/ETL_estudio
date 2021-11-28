@@ -1,0 +1,24 @@
+--------------------------------------------------
+Para actualizar sql server 
+ -ir a inicio(windows) y buscar el instalador de
+  sql server (instalation center)
+
+  -al abrirse, seleccionar la pestaña "instalación"
+  -seleccionar la primera opción →nueva instalación independiente... etc
+  -busca en la raiz la carpeta de sqlserver, selecciona el archivo Developer_ENu	
+  -dar siguiente hasta que aparezca  "agregar caracteristicas a..." y seleccionarlo, después siguiente de nuevo
+  -en la tabla features seleccionar análisis services y también integration services | siguiente
+  -en modo de servidor seleccionar "modo multidimencional y de minería de datos" y dar clic en agregar usuario actual | siguiente
+  -clic en instalar.
+
+El integration service igual debe instalarse en visual studio 2019
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
